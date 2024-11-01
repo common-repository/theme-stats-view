@@ -1,0 +1,41 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "theme-stats-view/tsview-block",
+  "title": "Single Theme",
+  "category": "theme-stats-view",
+  "icon": "format-image",
+  "description": "The stats of theme is displayed.",
+  "keywords": [
+	"theme",
+	"stats"
+  ],
+  "version": "1.0.4",
+  "textdomain": "theme-stats-view",
+  "attributes": {
+    "slug": {
+      "type": "string",
+      "default": null
+    },
+    "view": {
+      "type": "string",
+      "default": "normal"
+    },
+    "link": {
+      "type": "string",
+      "default": null
+    },
+    "open": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "supports": {
+    "customClassName": false,
+    "className": false,
+    "html": false
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

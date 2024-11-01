@@ -1,0 +1,159 @@
+/**
+ * Theme Stats View
+ * 
+ * @package    Theme Stats View
+ * @subpackage themestatsview.css
+/*  Copyright (c) 2019- Katsushi Kawamori (email : dodesyoswift312@gmail.com)
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; version 2 of the License.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+*/
+
+.themestatsview-simple-wrap {
+  padding:10px;
+  font-size: small;
+}
+.themestatsview-card-wrap {
+  padding:10px;
+}
+.themestatsview-normal-wrap {
+}
+.themestatsview-astyle {
+  text-decoration: none;
+}
+.themestatsview-banner {
+  width: 100%;
+}
+.themestatsview-simple-icon,.themestatsview-normal-icon {
+  width: 64px;
+  height: 64px;
+  float: left;
+  padding: 5px;
+}
+.themestatsview-card-icon {
+  width: 128px;
+  height: 128px;
+  float: left;
+  padding: 5px;
+}
+.themestatsview-after-icon {
+  overflow: hidden;
+}
+.themestatsview-simple-desc {
+  font-size: small;
+}
+.themestatsview-card-desc {
+  font-size: small;
+}
+.themestatsview-normal-desc {
+  padding: 20px;
+}
+.themestatsview-details {
+  margin-bottom: 5px;
+}
+.themestatsview-mobile-details {
+  margin-bottom: 5px;
+  text-indent: 1em;
+}
+.themestatsview-summary {
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #ddd; 
+  background: #f4f4f4;
+  color: #000;
+}
+.themestatsview-bold {
+  font-weight: bold;
+}
+.themestatsview-small {
+  font-size: small;
+}
+.themestatsview-card-left {
+  display: inline-block;
+  width:50%;
+}
+.themestatsview-card-right {
+  display: inline-block;
+  width:50%;
+  float: right;
+  text-align:right;
+}
+.themestatsview-mobile-indent {
+  text-indent: 2em;
+}
+.themestatsview-download {
+  text-decoration: none;
+  display:inline-block; 
+  vertical-align:middle;
+}
+.themestatsview-stars {
+  color: #ffcc33;
+}
+table.themestatsview-table {
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+}
+th.themestatsview-th {
+  border: 1px solid #b9b9b9;
+  width: 33%;
+}
+td.themestatsview-tr1 {
+  text-align: left;
+}
+td.themestatsview-tr2 {
+  text-align: left;
+   vertical-align: top;
+}
+td.themestatsview-td {
+  border: 1px solid #b9b9b9;
+}
+
+.themestatsview-all-wrap {
+  padding:10px;
+}
+.themestatsview-all-single-wrap {
+  padding:10px;
+  font-size: small;
+  width: 300px;
+  height: 64px;
+  float: left;
+}
+.themestatsview-all-graph-wrap {
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+}
+.themestatsview-all-reviews-count {
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+}
+.themestatsview-all-reviews-text {
+  width: 4em;
+  display: inline-block;
+  text-align: left;
+}
+.themestatsview-all-reviews-progress {
+  width: 6em;
+  display: inline-block;
+}
+progress.taview { vertical-align: middle; width: 6em; text-align: left; }
+/* Firefox */
+progress.taview::-moz-progress-bar { background: #ffcc33; border: none; }
+progress.taview { -webkit-appearance: none; }
+/* Chrome */
+progress.taview::-webkit-progress-value { background: #ffcc33; border: none; }
+progress.taview::-webkit-progress-bar { background: #e6e6e6; border: none; }
+/* IE */
+progress.taview { color: #ffcc33; border: none; }

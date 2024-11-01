@@ -1,0 +1,19 @@
+{
+  "templates": [
+    {
+      "slug": "default",
+      "name": "Default template",
+      "description" : "This is default template.",
+      "version": "1.00",
+      "author": "Katsushi Kawamori",
+      "author_link": "https://profiles.wordpress.org/katsushi-kawamori/",
+      "files": {
+        "template_html_normal": "themestatsview-template-html-normal.php",
+        "template_html_card": "themestatsview-template-html-card.php",
+        "template_html_simple": "themestatsview-template-html-simple.php",
+        "template_html_all": "themestatsview-template-html-all.php",
+        "css": "themestatsview.css"
+      }
+    }
+  ]
+}
